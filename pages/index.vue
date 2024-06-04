@@ -43,7 +43,7 @@
             </div>
             <div class="basis-1/5 md:basis-1/4 md:place-content-end">
                 <div class="flex justify-end pt-12">
-                    <p class="text-xs text-gray-600 text-right">© Nothing Means Anything. Ltd..</p>
+                    <p class="text-xs text-gray-600 text-right">© Nothing Means Anything. Ltd.</p>
                 </div>
             </div>
         </div>
