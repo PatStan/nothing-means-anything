@@ -30,7 +30,7 @@
                 </p>
             </div>
             <div class="basis-1/5 md:basis-1/12 xl:basis-1/5 xl:pt-12 p-2 pt-6 md:justify-end md:place-content-center">
-                <p class="text-right text-2xl text-gray-500">CAPTURE THE INEFFABLE.</p>
+                <p class="text-right text-2xl text-slate-500">CAPTURE THE INEFFABLE.</p>
             </div>
             <div class="basis-1/5 md:basis-1/12 justify-center items-end">
                 <div class="flex justify-end p-2 pt-6 md:pt-10 xl:mt-8">
@@ -43,7 +43,7 @@
             </div>
             <div class="basis-1/5 md:basis-1/4 md:place-content-end">
                 <div class="flex justify-end pt-12">
-                    <p class="text-xs text-gray-600 text-right">© Nothing Means Anything. Ltd.</p>
+                    <p class="text-xs text-slate-600 text-right">© Nothing Means Anything. Ltd.</p>
                 </div>
             </div>
         </div>
