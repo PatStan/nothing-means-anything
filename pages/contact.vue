@@ -1,13 +1,9 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <h1 class="text-3xl w-full text-center mt-20">
+    <h1 class="text-3xl w-full text-center pt-40">
         This is a page for contact
     </h1>
 </template>
 
-<style scoped>
+<script setup lang="ts">
 
-</style>
+</script>

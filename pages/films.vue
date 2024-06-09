@@ -1,13 +1,11 @@
+<template>
+    <div>
+        <h1 class="text-3xl w-full text-center pt-40">
+        This is a page for films
+        </h1>
+    </div>
+</template>
+
 <script setup lang="ts">
 
 </script>
-
-<template>
-    <h1 class="text-3xl w-full text-center mt-20">
-        This is a page for films
-    </h1>
-</template>
-
-<style scoped>
-
-</style>
