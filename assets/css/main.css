@@ -5,5 +5,5 @@
 body {
     @apply bg-black;
     @apply text-white;
-    font-family: Georgia,Times,Times New Roman,serif;
+    font-family: Georgia, Georgia, Georgia, serif;
 }

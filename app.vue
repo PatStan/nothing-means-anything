@@ -1,12 +1,12 @@
 <template>
-    <div class="App">
-        <NavBar/>
+    <div>
+        <NavBar />
         <NuxtPage />
     </div>
 </template>
-<script>
-import NavBar from "./components/NavBar.vue"
 
+<script>
+import NavBar from "./components/NavBar"
 export default {
     name: "App",
     components: {
