@@ -3,7 +3,7 @@
         class="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-0 w-full max-h-svh md:h-screen p-4 xl:p-16 m-auto overflow-auto"
     >
         <div class="w-full">
-            <div class="flex justify-center h-5/6 items-center m-4 md:ml-6">
+            <div class="flex justify-center h-5/6 items-center m-4 md:ml-6 mt-8">
                 <img
                     class="object-scale-down w-full h-full mt-4 md:pt-10 md:pr-4"
                     src="assets/images/logo.png"
