@@ -1,10 +1,8 @@
 <template>
-    <header :class="{ 'scrolled-nav': scrollPosition }">
+    <header :class="{ 'scrolled-nav': scrolledNav }">
         <nav>
-            <div class="branding">
-                <img src="@/assets/images/logo.png" alt="">
-            </div>
             <ul v-show="!mobile" class="navigation">
+                <li><NuxtLink class="link" to="/">Home</NuxtLink></li>
                 <li><NuxtLink class="link" to="/films">Films</NuxtLink></li>
                 <li><NuxtLink class="link" to="/contact">Contact</NuxtLink></li>
             </ul>
@@ -26,7 +24,7 @@ export default {
     name: "navigation",
     data() {
         return {
-            scrollPosition: null,
+            scrolledNav: null,
             mobile: null,
             mobileNav: null,
             windowWidth: null,
@@ -38,9 +36,23 @@ export default {
         }
         this.checkScreen();
     },
+
+    mounted() {
+        window.addEventListener('scroll', this.updateScroll);
+    },
+
     methods: {
         toggleMobileNav() {
             this.mobileNav = !this.mobileNav;
+        },
+
+        updateScroll() {
+            const scrollPosition = window.scrollY;
+            if (scrollPosition > 50) {
+                this.scrolledNav = true;
+                return;
+            }
+            this.scrolledNav = false;
         },
 
         checkScreen() {
@@ -72,12 +84,19 @@ header {
         position: relative;
         display: flex;
         flex-direction: row;
-        padding: 12px 0;
         transition: .5s ease all;
         width: 90%;
         margin: 0 auto;
         @media(min-width: 1140px) {
             max-width: 1140px;
+        }
+        @media(min-width: 769px)
+        {
+            padding: 2px 0;
+        }
+        @media(max-width: 768px)
+        {
+            padding: 20px 0;
         }
 
         ul,
@@ -90,20 +109,26 @@ header {
 
         li {
             text-transform: uppercase;
-            padding: 16px;
-            margin-left: 16px;
+            padding: 3px;
+            margin-left: 1px;
         }
 
         .link {
-            font-size: 14px;
+            font-size: 24px;
+            font-weight: bold;
             transition: .5s ease all;
-            padding: 4px;
+            text-align: right;
+            padding-left: 60px;
+            padding-bottom: 11px;
+            padding-top: 5px;
+            padding-right: 6px;
+            height: 80%;
             border: 2px solid black;
 
             &:hover {
                 color: slategray;
                 background-color: darkslategrey;
-                border-color: darkslategray;
+                border-color: black;
             }
         }
 
@@ -161,6 +186,22 @@ header {
                 margin-left: 0;
                 .link {
                     color: white;
+                }
+            }
+        }
+    }
+
+    .scrolled-nav {
+        background-color: blue;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+        nav {
+            padding: 8px 0;
+
+            .branding {
+                img {
+                    width: 40px;
+                    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
                 }
             }
         }

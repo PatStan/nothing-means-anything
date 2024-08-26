@@ -1,13 +1,4 @@
 <template>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"
-            integrity="sha384-iKbFRxucmOHIcpWdX9NTZ5WETOPm0Goy0WmfyNcl52qSYtc2Buk0NCe6jU1sWWNB"
-            crossorigin="anonymous"
-        />
-    </head>
     <div
         class="grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-0 w-full max-h-svh md:h-screen p-4 xl:p-16 m-auto overflow-auto"
     >
