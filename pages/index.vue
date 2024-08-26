@@ -20,14 +20,16 @@
                     London working under the banner of <span class="inline-block">Nothing Means Anything.</span>
                 </p>
                 <p class="text-sm md:text-lg text-right mt-4">
-                    When not listening or watching the world we should be in fail to exist, they usually write some
-                    shiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit to do with society, human emotions, cosmic thought
+                    When not listening or watching the world we should be in fail to exist, they usually make some
+                    FILMS to do with society, human emotions, cosmic thought
                     exploration and bridge the gap between rich and poor in a way that yuppies and politicians alike can
                     only dream of.
                 </p>
             </div>
             <div class="basis-1/5 md:basis-1/12 xl:basis-1/5 xl:pt-12 p-2 pt-6 md:justify-end md:place-content-center">
-                <p class="text-right text-2xl text-slate-500">CAPTURE THE INEFFABLE.</p>
+                <p class="text-right text-2xl text-slate-500">This Is The Truth</p>
+                <p class="text-right text-2xl text-slate-500 mt-2">We Make Films To Figure Out What We Are</p>
+                <p class="text-right text-2xl text-slate-500 mt-2">Nothing Means Anything</p>
             </div>
             <div class="basis-1/5 md:basis-1/12 justify-center items-end">
                 <div class="flex justify-end p-2 pt-6 md:pt-10 xl:mt-8">
