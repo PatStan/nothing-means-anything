@@ -11,6 +11,7 @@
             </div>
             <transition name="mobile-nav">
                 <ul v-show="mobileNav" class="dropdown-nav">
+                    <li><NuxtLink class="link" to="/">Home</NuxtLink></li>
                     <li><NuxtLink class="link" to="/films">Films</NuxtLink></li>
                     <li><NuxtLink class="link" to="/contact">Contact</NuxtLink></li>
                 </ul>
@@ -186,6 +187,7 @@ header {
                 margin-left: 0;
                 .link {
                     color: white;
+                    padding-bottom: 6px;
                 }
             }
         }
