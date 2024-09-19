@@ -21,6 +21,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "primevue": "^3.52.0"
+    "nuxt-swiper": "^1.2.2",
+    "primevue": "^3.52.0",
+    "swiper": "^11.1.14"
   }
 }

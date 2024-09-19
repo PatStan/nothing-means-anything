@@ -120,7 +120,7 @@ header {
             transition: .5s ease all;
             text-align: right;
             padding-left: 60px;
-            padding-bottom: 11px;
+            padding-bottom: 10px;
             padding-top: 5px;
             padding-right: 6px;
             height: 80%;
