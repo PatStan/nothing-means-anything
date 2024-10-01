@@ -40,7 +40,7 @@
             <div class="basis-1/5 md:basis-1/12 justify-center items-end">
                 <div class="flex justify-end p-2 pt-6 md:pt-2 xl:mt-4">
                     <a href="mailto:thewriters@nothingmeansanything.co.uk"
-                        class="text-right text-xs md:text-sm xl:text-base bg-transparent py-1 px-1 xl:px-6 border border-white hover:text-slate-500 hover:border-slate-500"
+                        class="text-right text-xs md:text-sm xl:text-base bg-transparent py-1 px-1 xl:px-6 border border-white hover:text-blue-400 hover:border-slate-600"
                     >
                         THEWRITERS@NOTHINGMEANSANYTHING.CO.UK
                     </a>
