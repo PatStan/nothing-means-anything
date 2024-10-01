@@ -33,9 +33,9 @@
             </div>
             <div class="basis-1/5 md:basis-1/12 xl:pt-4 p-2 pt-6 md:justify-end md:place-content-center">
                 <p class="text-right text-xl text-slate-200">Films:</p>
-                <p class="text-right text-l text-slate-200">Inside, I Want Out (2023)</p>
-                <p class="text-right text-l text-slate-200">Sweat Sublime (2024)</p>
-                <p class="text-right text-l text-slate-200">The Delusionist (TBA)</p>
+                <p class="text-right italic text-l text-slate-200">Inside, I Want Out (2023)</p>
+                <p class="text-right italic text-l text-slate-200">Sweat Sublime (2024)</p>
+                <p class="text-right italic text-l text-slate-200">The Delusionist (TBA)</p>
             </div>
             <div class="basis-1/5 md:basis-1/12 justify-center items-end">
                 <div class="flex justify-end p-2 pt-6 md:pt-2 xl:mt-4">
