@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col h-full xl:px-2">
-            <div class="basis-2/5 md:basis-3/5 xl:basis-4/5 p-2 pl-6 xl:pl-34 xl:mt-40 md:place-content-end">
+            <div class="basis-1/5 md:basis-2/5 xl:basis-3/5 p-2 pl-6 xl:pl-34 xl:mt-30 md:place-content-end">
                 <p class="text-sm md:text-lg text-right">
                     Charlie Stanton & Joshua De Marco are <span class="inline-block">Writer-Directors</span> from East
                     London working under the banner of <span class="inline-block">Nothing Means Anything.</span>
@@ -26,13 +26,19 @@
                     only dream of.
                 </p>
             </div>
-            <div class="basis-1/5 md:basis-1/12 xl:basis-1/5 xl:pt-12 p-2 pt-6 md:justify-end md:place-content-center">
+            <div class="basis-1/5 md:basis-1/12 xl:basis-1/5 xl:pt-6 p-2 pt-6 md:justify-end md:place-content-center">
                 <p class="text-right text-2xl text-slate-500">This Is The Truth</p>
                 <p class="text-right text-2xl text-slate-500 mt-2">We Make Films To Figure Out What We Are</p>
                 <p class="text-right text-2xl text-slate-500 mt-2">Nothing Means Anything</p>
             </div>
+            <div class="basis-1/5 md:basis-1/12 xl:pt-4 p-2 pt-6 md:justify-end md:place-content-center">
+                <p class="text-right text-xl text-slate-200">Films:</p>
+                <p class="text-right text-l text-slate-200">Inside, I Want Out (2023)</p>
+                <p class="text-right text-l text-slate-200">Sweat Sublime (2024)</p>
+                <p class="text-right text-l text-slate-200">The Delusionist (TBA)</p>
+            </div>
             <div class="basis-1/5 md:basis-1/12 justify-center items-end">
-                <div class="flex justify-end p-2 pt-6 md:pt-10 xl:mt-8">
+                <div class="flex justify-end p-2 pt-6 md:pt-2 xl:mt-4">
                     <p
                         class="text-right text-xs md:text-sm xl:text-base bg-transparent py-1 px-1 xl:px-6 border border-white"
                     >
