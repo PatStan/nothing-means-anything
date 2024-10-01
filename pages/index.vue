@@ -29,7 +29,7 @@
             <div class="basis-1/5 md:basis-1/12 xl:basis-1/5 xl:pt-6 p-2 pt-6 md:justify-end md:place-content-center">
                 <p class="text-right text-2xl text-slate-500">This Is The Truth</p>
                 <p class="text-right text-2xl text-slate-500 mt-2">We Make Films To Figure Out What We Are</p>
-                <p class="text-right text-2xl text-slate-500 mt-2">Nothing Means Anything</p>
+                <p class="text-right italics text-2xl text-slate-500 mt-2">Nothing Means Anything</p>
             </div>
             <div class="basis-1/5 md:basis-1/12 xl:pt-4 p-2 pt-6 md:justify-end md:place-content-center">
                 <p class="text-right text-xl text-slate-200">Films:</p>
