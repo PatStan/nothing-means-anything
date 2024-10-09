@@ -5,5 +5,11 @@
 body {
     @apply bg-black;
     @apply text-white;
-    font-family: Georgia, Georgia, Georgia, serif;
+    font-family: OCR-B, OCR-B, OCR-B, sans-serif;
+}
+
+@font-face {
+    font-family: "OCR-B";
+    src: url(https://cdn.jsdelivr.net/gh/raisty/OCR-B/dist/OCR-B.ttf) format("truetype"),
+    url(https://cdn.jsdelivr.net/gh/raisty/OCR-B/dist/OCR-B.otf) format("opentype");
 }
